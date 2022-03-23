@@ -6,7 +6,14 @@ function AppNavBar() {
   return (
     <nav>
       <ul>
-        <li onClick={() => navigate("/menu")}>Restaurant Menu</li>
+        <li onClick={() => navigate("/menu")}>
+          <img
+            src="./images/RestaurantOffer.png"
+            alt="restaurant offer"
+            className="navImage"
+          ></img>
+          Restaurant Menu
+        </li>
         <li onClick={() => navigate("/template")}>Template</li>
       </ul>
     </nav>

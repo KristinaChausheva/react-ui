@@ -213,6 +213,14 @@ Menu
   border-radius: var(--radius);
   display: block;
 }
+.navImage {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
+  display: block;
+}
 .item-info header {
   display: flex;
   justify-content: space-between;
