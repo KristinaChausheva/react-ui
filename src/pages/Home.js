@@ -2,10 +2,12 @@ import AppNavBar from "../components/AppNavBar"
 
 function Home() {
   return (
-    <div>
-      <AppNavBar />
-      <h1>Home</h1>
-    </div>
+    <>
+      <h1 className="title">Home</h1>
+      <div className="menu section">
+        <AppNavBar />
+      </div>
+    </>
   )
 }
 
