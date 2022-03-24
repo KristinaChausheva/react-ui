@@ -14,6 +14,14 @@ function AppNavBar() {
           />
           Restaurant Menu
         </li>
+        <li onClick={() => navigate("/grocery-bud")}>
+          <img
+            src="./images/imageHolder.png"
+            alt="grocery bud"
+            className="navImage"
+          />
+          Grocery Bud
+        </li>
         <li onClick={() => navigate("/template")}>
           <img
             src="./images/imageHolder.png"
