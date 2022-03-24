@@ -8,22 +8,14 @@ const List = ({ items, removeItem, editItem }) => {
         const { id, title } = item
         return (
           <article className="grocery-item" key={id}>
-            <p className="title">{title}</p>
+            <p className="grocery-text">{title}</p>
             <div className="btn-container">
-              <button
-                type="button"
-                className="edit-btn"
-                onClick={() => editItem(id)}
-              >
+              <div className="edit-btn" onClick={() => editItem(id)}>
                 <FaEdit />
-              </button>
-              <button
-                type="button"
-                className="delete-btn"
-                onClick={() => removeItem(id)}
-              >
+              </div>
+              <div className="delete-btn" onClick={() => removeItem(id)}>
                 <FaTrash />
-              </button>
+              </div>
             </div>
           </article>
         )

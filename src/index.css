@@ -256,3 +256,96 @@ Menu
     height: 150px;
   }
 }
+
+/*
+=============== 
+Grocery Bud
+===============
+*/
+.bud {
+  background-color: #1e1530;
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+  padding: 2em;
+}
+.bud-container {
+  border: solid 1px#fff;
+  border-radius: 0.4em;
+  height: auto;
+  margin: 2em;
+  padding: 2em;
+  margin: 0;
+}
+.grocery-input {
+  background-color: #382952;
+  color: #bdb8c3;
+  width: 70%;
+  height: 5em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  margin-right: 0.2em;
+  padding-left: 1em;
+  border: none;
+}
+.submit-btn {
+  width: 5.5em;
+  height: 4em;
+  border-radius: 0.5em;
+  color: #382952;
+  font-size: 1em;
+}
+.clear-btn {
+  width: 19em;
+  height: 4em;
+  border-radius: 0.5em;
+  color: #382952;
+  font-size: 1em;
+}
+.btn-container {
+  height: 3em;
+}
+
+.edit-btn {
+  background-color: #382952;
+  color: #bdb8c3;
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+}
+.delete-btn {
+  background-color: #382952;
+  color: #bdb8c3;
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+}
+
+.grocery-list {
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+.grocery-item {
+  width: 19em;
+  height: 4em;
+  background-color: #382952;
+  color: #bdb8c3;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.grocery-title {
+  color: #bdb8c3;
+}
+.grocery-text {
+  color: #bdb8c3;
+  padding-left: 1em;
+  padding-top: 1em;
+}
