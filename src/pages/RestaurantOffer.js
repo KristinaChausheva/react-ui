@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import Menu from "../components/Menu"
-import Categories from "../components/Categories"
+import Menu from "../components/Menu/Menu"
+import Categories from "../components/Menu/Categories"
 import items from "../data"
 const allCategories = ["all", ...new Set(items.map((item) => item.category))]
 
