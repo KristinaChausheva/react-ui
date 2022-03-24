@@ -282,7 +282,7 @@ Grocery Bud
 .grocery-input {
   background-color: #382952;
   color: #bdb8c3;
-  width: 70%;
+  width: 65%;
   height: 5em;
   border-radius: 0.5em;
   margin-bottom: 1em;
@@ -298,7 +298,7 @@ Grocery Bud
   font-size: 1em;
 }
 .clear-btn {
-  width: 19em;
+  width: 17em;
   height: 4em;
   border-radius: 0.5em;
   color: #382952;
@@ -330,7 +330,7 @@ Grocery Bud
   font-size: 1em;
 }
 .grocery-item {
-  width: 19em;
+  width: 17em;
   height: 4em;
   background-color: #382952;
   color: #bdb8c3;
