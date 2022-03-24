@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import Menu from "../components/Menu/Menu"
-import Categories from "../components/Menu/Categories"
-import items from "../data"
+import Menu from "../../components/Menu/Menu"
+import Categories from "../../components/Menu/Categories"
+import items from "../../data"
 const allCategories = ["all", ...new Set(items.map((item) => item.category))]
 
 function RestaurantOffer() {

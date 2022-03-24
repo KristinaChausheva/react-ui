@@ -1,4 +1,4 @@
-import AppNavBar from "../components/Menu/AppNavBar"
+import AppNavBar from "../AppNavBar"
 
 function Home() {
   return (
